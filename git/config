@@ -1,0 +1,8 @@
+[user]
+	name = Robert Carr
+	email = robertlcarr@gmail.com
+[core]
+	excludesfile = $HOME/.gitignore
+    editor= nvim
+[push]
+	default = simple

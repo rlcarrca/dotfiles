@@ -1,0 +1,11 @@
+#!/bin/bash
+
+yay -S --noconfirm docker docker-compose
+
+sudo groupadd docker
+
+sudo gpasswd -a user docker $USER
+
+sudo systemctl start docker
+
+sudo systemctl enable docker
